@@ -14,6 +14,8 @@
 		7D14A03A1B00853E00ACA844 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D14A0391B00853E00ACA844 /* Images.xcassets */; };
 		7D14A03D1B00853E00ACA844 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D14A03B1B00853E00ACA844 /* LaunchScreen.xib */; };
 		7D14A0491B00853E00ACA844 /* TableViewAttachmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D14A0481B00853E00ACA844 /* TableViewAttachmentTests.m */; };
+		7DDBC09C1B0321F3002EA5A3 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDBC09B1B0321F3002EA5A3 /* CustomCell.m */; };
+		7DDBC09F1B03227A002EA5A3 /* SpringCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDBC09E1B03227A002EA5A3 /* SpringCollectionViewLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		7D14A0421B00853E00ACA844 /* TableViewAttachmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewAttachmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D14A0471B00853E00ACA844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D14A0481B00853E00ACA844 /* TableViewAttachmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewAttachmentTests.m; sourceTree = "<group>"; };
+		7DDBC09A1B0321F3002EA5A3 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		7DDBC09B1B0321F3002EA5A3 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		7DDBC09D1B03227A002EA5A3 /* SpringCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringCollectionViewLayout.h; sourceTree = "<group>"; };
+		7DDBC09E1B03227A002EA5A3 /* SpringCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringCollectionViewLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				7D14A0311B00853E00ACA844 /* AppDelegate.m */,
 				7D14A0331B00853E00ACA844 /* ViewController.h */,
 				7D14A0341B00853E00ACA844 /* ViewController.m */,
+				7DDBC09A1B0321F3002EA5A3 /* CustomCell.h */,
+				7DDBC09B1B0321F3002EA5A3 /* CustomCell.m */,
+				7DDBC09D1B03227A002EA5A3 /* SpringCollectionViewLayout.h */,
+				7DDBC09E1B03227A002EA5A3 /* SpringCollectionViewLayout.m */,
 				7D14A0361B00853E00ACA844 /* Main.storyboard */,
 				7D14A0391B00853E00ACA844 /* Images.xcassets */,
 				7D14A03B1B00853E00ACA844 /* LaunchScreen.xib */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DDBC09F1B03227A002EA5A3 /* SpringCollectionViewLayout.m in Sources */,
 				7D14A0351B00853E00ACA844 /* ViewController.m in Sources */,
 				7D14A0321B00853E00ACA844 /* AppDelegate.m in Sources */,
+				7DDBC09C1B0321F3002EA5A3 /* CustomCell.m in Sources */,
 				7D14A02F1B00853E00ACA844 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +430,7 @@
 				7D14A04E1B00853E00ACA844 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D14A04F1B00853E00ACA844 /* Build configuration list for PBXNativeTarget "TableViewAttachmentTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				7D14A0511B00853E00ACA844 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
